@@ -95,19 +95,29 @@ npm install -g yarn
 yarn --version
 ```
 
-## :: NOTE, some curiosity about how the version formed?
+# :: NOTE, some curiosity about how the version formed?
 
->  :neckbeard: In this link [semantic versioner for npm][link-semantic-version-npm] we can see how the version are reference for `package.json`.
+:neckbeard: In this link [semantic versioner for npm][link-semantic-version-npm] we can see how the version are reference for `package.json`.
 
 
-> :page_with_curl: Wy yarn?, [one explanation][link-yarn-explanation].
+:page_with_curl: Wy yarn?, [one explanation][link-yarn-explanation].
 
-> :sunglasses: Yarn and NPM, two package manager, but who is the dad? for install yarn, one way is:
-> 
-> ```shell
-> npm install -g yarn
-> ```
+:sunglasses: Yarn and NPM, two package manager, but who is the dad? for install yarn, one way is:
 
+```shell
+npm install -g yarn
+```
+
+Some difference commands between npm and yarn:
+
+| npm | yarn |
+|---|---|---|
+| npm install | yarn |
+| npm install <package> --save | yarn add <package> |
+| npm install <package> --save-dev --save-exact | yarn add <package> --dev --exact |
+| npm install -g <package> | yarn global add <package> |
+| npm update | yarn upgrade |
+| ./node-modules/.bin/<package>  | yarn run <package> |
 
 <!-- references, link, on so on -->
 [link-wiki-glyph]: https://en.wikipedia.org/wiki/Glyph
