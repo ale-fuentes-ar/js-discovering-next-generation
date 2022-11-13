@@ -95,7 +95,7 @@ npm install -g yarn
 yarn --version
 ```
 
-# :: NOTE, some curiosity about how the version formed?
+## :: NOTE, some curiosity about how the version formed?
 
 :neckbeard: In this link [semantic versioner for npm][link-semantic-version-npm] we can see how the version are reference for `package.json`.
 
@@ -119,17 +119,41 @@ Some difference commands between npm and yarn:
 | npm update | yarn upgrade |
 | ./node-modules/.bin/<package>  | yarn run <package> |
 
+
+## Modules in JS
+
+Javascript has to necessity of create modules, for a good organization. But its need of compatibility.
+
+### Common jS
+
+Tha use [NodeJs][link-nodejs], all modeles can communicate with next keywords, `require` (*allow front module where we has work, import o load another modules for our project*) and `exports` (*allow that our project deploy for ohter users can get our module*).
+
+
+### EmacScript
+
+
+### Note
+
+* Wy [AMD][link-github-theory-amd-modules] (*Asynchronous Module Definition*) 
+* Wy [UMD][link-github-theory-umd-modules] (*Universal Module Definition*)
+
+
 <!-- references, link, on so on -->
 [link-wiki-glyph]: https://en.wikipedia.org/wiki/Glyph
 
 [link-github-firacode]: https://github.com/tonsky/FiraCode
 [link-github-jsdoc]: https://github.com/jsdoc/jsdoc
 [link-github-plugin-documentthis]: https://github.com/oouo-diogo-perdigao/vscode-docthis
+[link-github-theory-umd-modules]: https://github.com/umdjs/umd
+[link-github-theory-amd-modules]:https://github.com/amdjs/amdjs-api/wiki/AMD
 
 [link-jsdoc]: https://jsdoc.app/
 [link-vscode]: https://code.visualstudio.com/
 [link-yarn]: https://yarnpkg.com/
+[link-yarn-explanation]: https://engineering.fb.com/2016/10/11/web/yarn-a-new-package-manager-for-javascript/
 [link-npx]: https://www.npmjs.com/package/npx
 [link-eslint]: https://eslint.org/
 [link-semantic-version-npm]: https://www.npmjs.com/package/semver
-[link-yarn-explanation]: https://engineering.fb.com/2016/10/11/web/yarn-a-new-package-manager-for-javascript/
+[link-nodejs]: https://nodejs.org/en/
+
+[link-theory-amd-modules]: https://requirejs.org/docs/whyamd.html
