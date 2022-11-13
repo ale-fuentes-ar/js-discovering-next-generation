@@ -1,0 +1,19 @@
+{
+  "name": "eslint",
+  "version": "1.0.0",
+  "description": "testig with eslint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src",
+    "lint-fix": "eslint src --fix"
+  },
+  "author": "alefuentes",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.27.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^19.0.4"
+  }
+}
