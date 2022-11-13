@@ -111,7 +111,7 @@ npm install -g yarn
 Some difference commands between npm and yarn:
 
 | npm | yarn |
-|---|---|---|
+|---|---|
 | npm install | yarn |
 | npm install <package> --save | yarn add <package> |
 | npm install <package> --save-dev --save-exact | yarn add <package> --dev --exact |
