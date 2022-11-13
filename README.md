@@ -97,19 +97,16 @@ yarn --version
 
 ## :: NOTE, some curiosity about how the version formed?
 
->  :neckbeard: :star: :start: In this link [semantic versioner for npm][link-semantic-version-npm] we can see how the version are reference for `package.json`.
+>  :neckbeard: In this link [semantic versioner for npm][link-semantic-version-npm] we can see how the version are reference for `package.json`.
 
-| :bowtie: `:bowtie:` | :smile: `:smile:` | :laughing: `:laughing:` |
-|---|---|---|
-| :blush: `:blush:` | :smiley: `:smiley:` | :relaxed: `:relaxed:` |
 
-Wy yarn?, [one explanation][link-yarn-explanation].
+> :page_with_curl: Wy yarn?, [one explanation][link-yarn-explanation].
 
-Yarn and NPM, two package manager, but who is the dad? for install yarn, one way is:
-
-```shell
-npm install -g yarn
-```
+> :sunglasses: Yarn and NPM, two package manager, but who is the dad? for install yarn, one way is:
+> 
+> ```shell
+> npm install -g yarn
+> ```
 
 
 <!-- references, link, on so on -->
