@@ -179,3 +179,4 @@ yarn add ejs
 [link-socketio]: https://socket.io/
 
 [link-theory-amd-modules]: https://requirejs.org/docs/whyamd.html
+[link-theory-kangax-es6]: https://kangax.github.io/compat-table/es6/

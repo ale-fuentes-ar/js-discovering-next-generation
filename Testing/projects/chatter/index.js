@@ -16,7 +16,7 @@ io.sockets.on("connection", function(socket){
         socket.username = username;
         io.emit(
             "is_online", 
-            "● <em>" + socket.username + " joins the chat </em>"
+            "🟢 <em>" + socket.username + " joins the chat </em>"
         );
     });
 
@@ -24,7 +24,7 @@ io.sockets.on("connection", function(socket){
 
         io.emit(
             "is_online", 
-            "◌ <em>" + socket.username + " out of chat </em>"
+            "🔴 <em>" + socket.username + " out of chat </em>"
         );
     });
 
