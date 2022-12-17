@@ -124,18 +124,38 @@ Some difference commands between npm and yarn:
 
 Javascript has to necessity of create modules, for a good organization. But its need of compatibility.
 
+> ### Note
+>
+> * Wy [AMD][link-github-theory-amd-modules] (*Asynchronous Module Definition*) 
+> * Wy [UMD][link-github-theory-umd-modules] (*Universal Module Definition*)
+>
+
 ### Common jS
 
 Tha use [NodeJs][link-nodejs], all modeles can communicate with next keywords, `require` (*allow front module where we has work, import o load another modules for our project*) and `exports` (*allow that our project deploy for ohter users can get our module*).
 
 
-### EmacScript
+### EcmaScript
 
+This technology was use two word keys that controle of modules: `export` and `import`.
+But has a problem, no all browser do compilation ECMAScript, where our need some compilations, for example [babel][link-babeljs].
 
-### Note
+## SOCKET.IO
 
-* Wy [AMD][link-github-theory-amd-modules] (*Asynchronous Module Definition*) 
-* Wy [UMD][link-github-theory-umd-modules] (*Universal Module Definition*)
+With [Socket.io][link-socketio] libraty, we can make communication between client and server.
+
+Now, we do make a small app of chat:
+
+```shell
+# for create package.json
+npm init
+
+# add some dependencies
+yarn add express
+yarn add socket.io
+yarn add ejs
+```
+
 
 
 <!-- references, link, on so on -->
@@ -155,5 +175,7 @@ Tha use [NodeJs][link-nodejs], all modeles can communicate with next keywords, `
 [link-eslint]: https://eslint.org/
 [link-semantic-version-npm]: https://www.npmjs.com/package/semver
 [link-nodejs]: https://nodejs.org/en/
+[link-babeljs]: https://babeljs.io/
+[link-socketio]: https://socket.io/
 
 [link-theory-amd-modules]: https://requirejs.org/docs/whyamd.html

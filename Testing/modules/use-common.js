@@ -1,3 +1,3 @@
-const greeting = require('./greeting.js');
+const greeting = require('./greeting_commonjs.js');
 
 greeting.hiUser('Alefuuuu');

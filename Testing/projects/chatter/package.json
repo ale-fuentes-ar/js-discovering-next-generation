@@ -1,0 +1,16 @@
+{
+  "name": "chatter",
+  "version": "1.0.0",
+  "description": "Example of chat ussing Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ale fuentes",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
+  }
+}
